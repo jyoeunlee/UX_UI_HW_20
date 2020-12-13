@@ -1,0 +1,126 @@
+/* Basic Settings*/
+@font-face {
+    font-family: myFirstFont;
+    src: url(../css/MADE\ Gentle\ PERSONAL\ USE.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(../css/Baskerville.ttc);
+    font-weight: normal;
+}
+html {
+    background-color:#FBF3F1;
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+h1, h2 {
+    font-family: myFirstFont;
+}
+p {
+    font-family: mySecondFont;
+}
+/* Navigation */
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: #EFDBCF;
+    font-family: mySecondFont;
+    padding: 5px 15px;
+    height: 100vh;
+    width: 200px;
+    float: left;
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.navLink {
+    padding: 10px;
+    list-style-type: none;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+li, .navItem {
+    margin: 10px 0px;
+}
+/* Introduction */
+section {
+    margin-left: 200px;
+}
+.jumbotron {
+    background-image: url("../images/introimage.png");
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background: rgba(255,255,255,0.5);
+}
+/* Research */
+.icon {
+    height: 70px;
+}
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+h3 {
+    font-family: mySecondFont;
+}
+.media {
+    list-style-type: none;
+    margin-left: 150px;
+    align-items: flex;
+    margin-right: 150px;
+}
+.redline {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+/* Problem Statement */
+.Problem-Container {
+    width: 80%;
+    display: center;
+    margin-left: 100px;
+    padding: 50px 50px;
+    background-color: #EFDBCF;
+}
+/* Iteration */
+.card {
+    background-color: #FBF3F1!important;
+    margin: 10px 50px;
+}
+h3, .beforeAfter-text {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+h4 {
+    font-family: mySecondFont;
+    display: flex;
+    justify-content: space-around;
+}
+.beforeAfter {
+    padding: 0px 50px;
+}
+/* Prototype */
+.Prototype {
+    padding: 0px 50px;
+    margin-bottom: 200px!important;
+}
+.prototypeImage {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin: 20px;
+}
